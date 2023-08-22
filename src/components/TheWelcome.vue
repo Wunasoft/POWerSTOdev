@@ -8,9 +8,9 @@ import SupportIcon from './icons/IconSupport.vue'
 </script>
 
 <template>
-  <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
+  @$#%<WelcomeItem>12314321145
+    <template #icon>ㅇㄹㅇㄴㄹㄴㅇㄹ
+      <DocumentationIcon />ㅌㅊㅋㅌㅋㅊㅋㅌㅊㄹㅇㅎㅁ롷ㅁㅇ롬ㅇ롷
     </template>
     <template #heading>Documentation</template>
 
@@ -82,5 +82,7 @@ import SupportIcon from './icons/IconSupport.vue'
     As an independent project, Vue relies on community backing for its sustainability. You can help
     us by
     <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener">becoming a sponsor</a>.
+
+    웰컴아이템 끝나버림
   </WelcomeItem>
 </template>

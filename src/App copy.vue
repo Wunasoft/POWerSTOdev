@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
-
-import HeaderLogo from './components/modules/HeaderLogo.vue';
-import MainImage from './components/modules/MainImage.vue';
-import ContentsTitle from './components/modules/ContentsTitle.vue';
-
 </script>
 
 <template>
   
-  <header>
+  <header> App.vue 시작
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
@@ -19,13 +14,11 @@ import ContentsTitle from './components/modules/ContentsTitle.vue';
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>
+      </nav>App.vue 끝 Header테그
     </div>
   </header>
-  <!--RouterView /-->
-  <HeaderLogo msg="NPL 투자사례"></HeaderLogo>
-  <MainImage/>
-  <ContentsTitle mag="NPL 투자사례" />
+xcv
+  <RouterView />123
 </template>
 
 <style scoped>
