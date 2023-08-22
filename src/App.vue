@@ -23,9 +23,9 @@ import ContentsTitle from './components/modules/ContentsTitle.vue';
     </div>
   </header>
   <!--RouterView /-->
-  <HeaderLogo msg="NPL 투자사례"></HeaderLogo>
+  <HeaderLogo/>
   <MainImage/>
-  <ContentsTitle mag="NPL 투자사례" />
+  <ContentsTitle msg="NPL 투자사례" img0="" />
 </template>
 
 <style scoped>

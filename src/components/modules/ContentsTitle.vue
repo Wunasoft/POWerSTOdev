@@ -1,24 +1,21 @@
+<script setup lang="ts">
+  defineProps<{
+    msg: string,
+    img0: string,
+    img1: string,
+    img2: string
+  }>()
+</script>
+
 <template>
   <div class="containerIndex">
-    <div class="subtitle">&nbsp;{{strDataProps.strTitle}}</div>
-    <img class="contents" src="../../images/{{strDataProps.imgName0}}" />
-    <img class="contents" src="../../images/{{strDataProps.imgName1}}" />
-    <img class="contents" src="../../images/{{strDataProps.imgName2}}" />
+    <div class="subtitle">&nbsp;{{msg}}</div>
+    <img class="contents" src="../../images/{{img0}}" />
+    <img class="contents" src="../../images/{{img1}}" />
+    <img class="contents" src="../../images/{{img2}}" />
   </div>
 </template>
 
-<script lang="ts">
-  //import { ref } from "vue"
-  //const strTitle:string[]
-  
-  export default {
-    //setup() {
-    props:
-      ["strDataProps"]
-      
-    //} //= ref(["NPL 투자사례","investment11.png","investment12.png","notice.png"]);
-  };
-</script>
 <style>
 .containerIndex {
   display: grid;
