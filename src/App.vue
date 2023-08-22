@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+import HeaderLogo from './components/modules/HeaderLogo.vue';
+//import MainImage from './components/modules/MainImage.vue';
+//import ContentsTitle from './components/modules/ContentsTitle.vue';
+
 </script>
 
 <template>
+  
   <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
@@ -16,8 +22,8 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
-
-  <RouterView />
+  <!--RouterView /-->
+  <HeaderLogo msg="NPL 투자사례"></HeaderLogo>
 </template>
 
 <style scoped>
