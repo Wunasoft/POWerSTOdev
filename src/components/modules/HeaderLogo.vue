@@ -21,7 +21,7 @@
    
 </script>
 
-<style scoped>
+<style >
 .logoline{
     width:100%; height:3.6em;
     display:flex;

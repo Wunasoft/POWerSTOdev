@@ -1,23 +1,25 @@
 <script setup lang="ts">
   defineProps<{
     msgCon: string,
-    img0: string,
-    img1: string,
-    img2: string
+    imgName0: string,
+    imgName1: string,
+    imgName2: string
+    // imgNames:string[3]
   }>()
 </script>
 
 <template>
-  <div class="containerIndex">
+  <div class="containerCon">
     <div class="subtitle">&nbsp;{{msgCon}}</div>
-    <img class="contents" src="../../images/{{img0}}" />
-    <img class="contents" src="../../images/{{img1}}" />
-    <img class="contents" src="../../images/{{img2}}" />
+    <img class="contents" src="../../images/{{imgName0}}" />
+    <img class="contents" src="../../images/{{imgName1}}" />
+    <img class="contents" src="../../images/{{imgName2}}" />
+    <!-- <img v-for="imgName in imgNames" class="contents" src="../../imgaes/{{ imgName}}" :key="imgName"> -->
   </div>
 </template>
 
-<style>
-.containerIndex {
+<style scoped>
+.containerCon {
   display: grid;
   grid-template-rows: 80px, 380px;
   grid-template-columns: 400px 400px 400px;

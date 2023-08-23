@@ -1,0 +1,9 @@
+@media (max-width:75em){
+    .containerIndex {
+        /*display:none;*/
+        justify-content:left;       
+    }
+    .containerIndex4 {
+        justify-content:left;
+    }
+}
