@@ -14,11 +14,10 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-      </nav>App.vue 끝 Header테그
+      </nav>
     </div>
   </header>
-xcv
-  <RouterView />123
+  <RouterView />
 </template>
 
 <style scoped>
