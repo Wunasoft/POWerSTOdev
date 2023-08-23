@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+// import { RouterLink, RouterView } from 'vue-router'
+import {RouterLink} from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 
 import HeaderLogo from './components/modules/HeaderLogo.vue';
@@ -25,7 +26,7 @@ import ContentsTitle from './components/modules/ContentsTitle.vue';
   <!--RouterView /-->
   <HeaderLogo/>
   <MainImage/>
-  <ContentsTitle msg="NPL 투자사례" img0="" />
+  <ContentsTitle msgCon="NPL 투자현황"/>
 </template>
 
 <style scoped>

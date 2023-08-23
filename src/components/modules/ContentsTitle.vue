@@ -1,6 +1,6 @@
 <script setup lang="ts">
   defineProps<{
-    msg: string,
+    msgCon: string,
     img0: string,
     img1: string,
     img2: string
@@ -9,7 +9,7 @@
 
 <template>
   <div class="containerIndex">
-    <div class="subtitle">&nbsp;{{msg}}</div>
+    <div class="subtitle">&nbsp;{{msgCon}}</div>
     <img class="contents" src="../../images/{{img0}}" />
     <img class="contents" src="../../images/{{img1}}" />
     <img class="contents" src="../../images/{{img2}}" />
