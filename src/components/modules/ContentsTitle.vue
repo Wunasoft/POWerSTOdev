@@ -1,31 +1,24 @@
 <script setup lang="ts">
   defineProps<{
-    msgCon: string,
-    imgName0: string,
-    imgName1: string,
-    imgName2: string
-    // imgNames:string[3]
+    strSubTitle: string,
+    conParam : string[][]
   }>()
 </script>
-
 <template>
   <div class="containerCon">
-    <div class="subtitle">&nbsp;{{msgCon}}</div>
-    <img class="contents" src="../../images/{{imgName0}}" />
-    <img class="contents" src="../../images/{{imgName1}}" />
-    <img class="contents" src="../../images/{{imgName2}}" />
-    <!-- <img v-for="imgName in imgNames" class="contents" src="../../imgaes/{{ imgName}}" :key="imgName"> -->
+    <div class="subtitle">&nbsp;{{strSubTitle}}</div>
+    <img v-for="conParam in conParam" class="contents" :src=conParam.fname :key="conParam.index">
   </div>
 </template>
 
 <style scoped>
 .containerCon {
   display: grid;
-  grid-template-rows: 80px, 380px;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 5em, 23.75em;
+  grid-template-columns: 25em 25em 25em;
   justify-content: center;
-  margin-top: 30px;
-  height: 440px;
+  margin-top: 1.9em;
+  height: 27.25em;
   background-size: cover;
 }
 
@@ -33,20 +26,20 @@
   grid-column: 1/4;
   grid-row: 1/2;
   vertical-align: bottom;
-  height: 36px;
-  font-size: 25px;
+  height: 1.8em;
+  font-size: 1.3em;
   font-family: "Segoe UI";
   font-weight: bold;
-  padding-right: 10px;
+  padding-right: 0.6em;
 }
 
 .contents {
-  height: 380px;
+  height: 23.75em;
   text-align: center;
-  width: 380px;
+  width: 23.75em;
   align-self: center;
   justify-content: center;
-  flex-grow: 0;
-  padding-right: 4em;
+  flex-grow: 0em;
+  padding-right: 4em; 
 }
 </style>
