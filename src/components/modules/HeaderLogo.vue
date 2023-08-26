@@ -9,6 +9,7 @@
             <a id="menulink" href="./investment.html" >투자하기</a>
             <a id="menulink" href="./aboutus.html" >ABOUT US</a>
             <a id="menulink" href="./notice.html" >공지사항</a>
+            <a id="menulink" href="./login.html" >로그인</a>
         </div>
     </div>
 </template>
