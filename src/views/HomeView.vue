@@ -22,7 +22,6 @@ data(){
   <main>
     <MainImage/>
     <ContentsTitle strSubTitle="NPL 투자현황" :conParam = "strParam0"/>
-    asdf
     <ContentsTitle strSubTitle="투자상품" :conParam="strParam1"/>
     
   </main>
