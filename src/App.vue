@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // import { RouterLink, RouterView } from 'vue-router'
- import {RouterLink} from 'vue-router'
+import {RouterLink} from 'vue-router'
 import HeaderLogo from './components/modules/HeaderLogo.vue';
 </script>
 
@@ -9,12 +9,9 @@ import HeaderLogo from './components/modules/HeaderLogo.vue';
   <nav>
     <RouterLink to="/">Home</RouterLink>
   </nav>
- 
 </template>
 
 <style scoped>
-
-
   .logo {
     margin: 0 2rem 0 0;
   }
@@ -29,7 +26,6 @@ import HeaderLogo from './components/modules/HeaderLogo.vue';
     text-align: left;
     margin-left: -1rem;
     font-size: 1rem;
-
     padding: 1rem 0;
     margin-top: 1rem;
   }

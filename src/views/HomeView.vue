@@ -23,17 +23,18 @@ data(){
     <MainImage/>
     <ContentsTitle strSubTitle="NPL 투자현황" :conParam = "strParam0"/>
     <ContentsTitle strSubTitle="투자상품" :conParam="strParam1"/>
+    
   </main>
 </template>
 
 <style scoped>
   .containerIndex {
   display: grid;
-  grid-template-rows: 80px, 380px;
-  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 5em, 23.75em;
+  grid-template-columns: 25em 25em 25em
   justify-content: center;
-  margin-top: 30px;
-  height: 440px;
+  margin-top: 1.875em;
+  height: 27.5em;
   background-size: cover;
 }
 
@@ -41,20 +42,20 @@ data(){
   grid-column: 1/4;
   grid-row: 1/2;
   vertical-align: bottom;
-  height: 36px;
-  font-size: 25px;
+  height: 2.25em;
+  font-size: 1.563;
   font-family: "Segoe UI";
   font-weight: bold;
-  padding-right: 10px;
+  padding-right: 0.625;
 }
 
 .contents {
-  height: 380px;
+  height: 23.75em;
   text-align: center;
-  width: 380px;
+  width: 23.75em;
   align-self: center;
   justify-content: center;
-  flex-grow: 0;
+  flex-grow: 0em;
   padding-right: 4em;
 }
 </style>

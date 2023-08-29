@@ -1,13 +1,12 @@
-<script lang='ts'>
-
-</script>
-
 <template>
 <div>
 
 </div>
 </template>
 
+<script lang='ts'>
+
+</script>
 
 <style Lang='scss'>
 
