@@ -4,7 +4,7 @@
   import ContentsTitle from '../components/modules/ContentsTitle.vue';
 
   var imgPath:string = "../../src/images/";
-
+data(){
   const strParam0 = [
     {fname: imgPath+"notice2.png", hLink: "230822001", cname: "염창동주택", erate: "25"},
     {fname: imgPath+"subTitle1.png", hLink: "230822002", cname: "신사동상가", erate: "28"},
@@ -15,6 +15,7 @@
     {fname: imgPath+"investment22.png", hLink: "230822002", cname: "신사동상가", erate: "28"}, 
     {fname: imgPath+"investment23.png", hLink: "230822003", cname: "홍대앞주택", erate: "35"}
   ];
+};
 </script>
 
 <template>
